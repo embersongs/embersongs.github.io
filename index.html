@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Design By Ahmed Faheem">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="webfonts/textfont/nova.css" >
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="icon" href="logo.ico">
+  <title>DelayDengi</title>
+    
+  <style>
+    ::-webkit-scrollbar {width: 6px;cursor: auto}
+    ::-webkit-scrollbar-track {background: rgb(27, 17, 42); }
+    ::-webkit-scrollbar-thumb {background:transparent; }
+    ::-webkit-scrollbar-thumb:hover {background: rgba(255, 75, 168,.75); }
+    </style>
+    
+</head>
+    
+<body>
+    
+
+  <!--- toggle sm-->
+
+  <div class="pos-f-t d-md-none toggle-sm">
+    <div class="collapse" id="toggle-sm">
+
+      <div class=" p-4">
+        <ul class="list-unstyled navigate">
+         <li>О нас</li>
+          <li>Игра</li>
+          <li>Блог</li>
+          <li>Форум</li>
+        </ul>
+        <ul class="ico-social  list-unstyled mt-1">
+          <li><a href=""><i class="fab fa-facebook-f "></i></a></li>
+          <li><a href=""><i class="fab fa-twitter"></i></a></li>
+          <li><a href=""><i class="fab fa-github"></i></a></li>
+          <li><a href=""><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <nav class="navbar navbar-dark ">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggle-sm" aria-controls="toggle-sm"
+        aria-expanded="false" aria-label="toggle-sm">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+  </div>
+  <!--- end toggle sm-->
+
+  <div class="container-fluid">
+
+    <div class="row">
+
+      <!-- nav left-->
+
+      <div class="col-12  d-none d-md-inline-block  col-md-3   col-lg-2 nav-left wow fadeInLeft " data-wow-duration="1.5s">
+
+        <img src="images/avatar2.png" alt="avatar2" class="img-fluid d-block ">
+
+        <ul class="list-unstyled navigate">
+          <li>О нас</li>
+          <li>Игра</li>
+          <li>Блог</li>
+          <li>Форум</li>
+        </ul>
+
+        <ul class="ico-social  list-unstyled  ">
+          <li><a href=""><i class="fab fa-facebook-f "></i></a></li>
+          <li><a href=""><i class="fab fa-twitter"></i></a></li>
+          <li><a href=""><i class="fab fa-github"></i></a></li>
+          <li><a href=""><i class="fab fa-instagram"></i></a></li>
+        </ul>
+          
+        
+      </div>
+
+      <!--end  nav left-->
+
+      <!-- right element-->
+      <div class="col-12  col-md-9 col-lg-10  right-element ">
+
+        <section class="section-about">
+
+          <div class="container">
+
+            <h2 class="h1 about-h wow fadeInRight">О нас</h2>
+
+            <div class="row">
+
+              <div class=" col-md-7 wow fadeInRight">
+
+                <h2 class="h1 about-h-2">DelayDengi</h2>
+
+                <h3>Игра нового поколения</h3>
+
+                <p class="lead">Предлагаем возможность поиграть и поучаствовать в создании игры DelayDengi
+                  </p>
+
+               <!-- <a href="" class="btn bt1 hvr-grow">Hire me</a>
+
+                <a href="" class="btn bt2 hvr-grow ">Know more</a>
+
+                <div class="client">
+
+                  <h5>Previous Client </h5> <span>/</span>
+
+                  <img src="images/icon/client1.png" alt="client1">
+                  <img src="images/icon/client2.png" alt="client2">
+                  <img src="images/icon/client3.png" alt="client3">
+                  <img src="images/icon/client4.png" alt="client4">
+
+                </div>
+        -->
+                <div class="end-about">
+
+                  <img src="images/icon/q.png" alt="client4">
+
+                  <span class="h3">Встал намедни - Делай деньги!</span>
+
+                </div>
+
+              </div>
+
+              <div class="col-md-5 d-none d-md-inline-block wow fadeInRight">
+
+                <img src="images/avatar.png" class="img-fluid " alt="avatar">
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+        <!-- start work section-->
+        <section class="section-work  ">
+
+          <div class="container text-center">
+            <h2 class="h1 work-h">Игра</h2>
+
+            <div class="row">
+
+              <div style="margin-top: 10%;" class="text-center col-lg-12">
+                <h1>Money: <span id='Money' class="badge badge-light">0</span></h1>
+                <br><button type="button" class="btn btn-dark" onclick='makeMoney()'>make money</button></br>
+              </div>
+              <script>
+                let money=0;
+                function makeMoney(){
+                  money++;
+                  document.getElementById('Money').innerHTML = money;
+                }
+              </script>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        <!-- end work section-->
+
+        <!-- labs section-->
+
+        <section class="section-labs ">
+
+          <div class="container">
+            <h2 class="h1 labs-h"></h2>
+
+            <div class="row">
+
+              <div class="col-12 col-md-6 col-lg-4 wow fadeInUp">
+                <div class="card" style="width: 100%;">
+                  <img class="card-img-top" src="images/labs/colorsup.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5>Старт разработки</h5>
+                    <p class="card-text">Сегодня 14 февраля мне приснилась идея гениальнейшей игры. Я почувствовал себя Менделеевым от мира геймдева. Я решил воплотить свой сон в жизнь и дать возможность другим людям насладиться сим творением.
+                     
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+			  <div class="col-12 col-md-6 col-lg-4 wow fadeInUp">
+                <div class="card" style="width: 100%;">
+                  <img class="card-img-top" src="images/labs/colorsup.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5>Дальнейшие идеи</h5>
+                    <p class="card-text">Обнаружилось, что любой может поставить себе любое количество денег, нужно это исправить!
+                     
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+
+    
+
+
+
+
+
+
+  
+            </div>
+          </div>
+        </section>
+        <!--end  labs section-->
+
+        <!--start contact section-->
+
+        <section class="section-contact  " data-wow-duration="1.5s">
+
+          <div class="container">
+            <h2 class="h1 contact-h  wow fadeInRight">Форум</h2>
+            <h3 class="wow fadeInRight"> Ваши идеи и предложения </h3>
+
+           <!-- <div class="form-group wow fadeInRight">
+              <textarea class="form-control" placeholder="Project Type, Target customer, Timeline, estimate etc"></textarea>
+            </div>
+
+            <h3 class=" wow fadeInRight"> About You</h3>
+
+            <div class="row  wow fadeInRight">
+
+              <div class="col-sm-12 col-lg-6 ">
+
+                <div class="form-group">
+                  <input type="text" placeholder="Full Name" class="form-control">
+                </div>
+                <div class="form-group">
+                  <input type="text" placeholder="Company Name" class="form-control">
+                </div>
+                  
+              </div>
+
+              <div class="col-sm-12 col-lg-6 ">
+
+                <div class="form-group">
+                  <input type="text" placeholder="Email Address" class="form-control">
+                </div>
+                <div class="form-group">
+                  <input type="text" placeholder="Position" class="form-control">
+                </div>
+
+              </div>
+            </div>
+            <div class=" wow fadeInRight"> -->
+              <a href="#" class="btn hvr-grow ">Request a Quote</a>
+              <div class="social ">
+                <a href=""><i style="margin-left:10px" class="fab fa-facebook-f "></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-github"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!--end contact section-->
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.nicescroll.js"></script>
+  <script src="js/plugin.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+      
+    $('.section-labs').hide();
+    $('.section-work').hide();
+    $('.section-contact').hide();
+    new WOW().init();
+  </script>
+    
+</body>
+
+</html>
